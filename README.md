@@ -10,7 +10,6 @@
 - 💞️ As I just mentioned, I’m looking to collaborate on ANYTHING.  Literally, anything.  I am at the point where I would like as much constructive feedback
      as possible from those that are more experienced than I.  Also, music!
 
-- 📫 You can always reach me at www.linkedin.com/in/alexander-patrie (more info to come), or on Instagram @spacebear_amadeus
 
 <!---
 spaceBearAmadeus/spaceBearAmadeus is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
