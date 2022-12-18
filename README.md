@@ -7,6 +7,11 @@
 - CURRENTLY WORKING ON: 
     
     Need Navigator: A tool implementing the use of Pyspark, SqlAlchemy, PostgreSQL, Textblob, Mlib, Seaborn, and Tensorflow to create a pipleline for the storage of data and educational performance analysis of students. Within those student entries there are fields that act as features('instrument', age, lesson time, what you worked on). There are also fields that are both categorical and numerical in nature that prompt the teacher to input both observational keywords(driven, redirection, etc) and a floating point number known as "Status" which are based on that week's lesson. "keywords" are observational, one-word monikers that describe the students performance in that week's lesson. "status" is a score that is the teacher's answer to the question, "How did it go with that student this week?". There is then is a subsequent script in this pipleline that extracts features/labels from the week's data where the features include all demographical information AND the subjective entries of Keywords and Status. The label/target column within this dataframe is WHAT you actually worked on in terms of lesson material. Here we then preprocess(vectorizes text, etc.) and interpret this data for the use of creating a student "Prescription" in terms of their needs on a particular subject at a particular point during their course of study. The "prescription" that is generated is a prediction concieved by a custom-fitted 1D convolutional neural network. This prediction then is fed into a different local Postgres database for the use of "looking up" past "prescriptions".  This tool is intended to be used by teachers to track the needs of their students, but may have a variety of uses within the workplace. The total features which are "learned" by the model are both subjective and objective in nature and thus the "prescription" is more organic because it begs the NN to "walk in the shoes" of the teacher with regard to observing the student performance.
+    
+    
+#turn it off first by commenting it out.
+#make it a variable if you need it more than once or if it's existence is unclear...else don't.
+#if it needs to be a variable, does it zig-zag through memory?
 
 <!---
 spaceBearAmadeus/spaceBearAmadeus is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
